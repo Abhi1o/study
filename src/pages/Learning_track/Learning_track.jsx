@@ -3,12 +3,12 @@ import Banner_img from "../../assets/images/brand/banner-img.png"
 import "./Learning_track.scss"
 import Success from '../../components/Success/Success'
 import Whyus from "../../components/Whyus/Whyus"
-import Tools_we_use from '../../components/Tool_we_use/Tools_we_use'
+import ToolsWeUse from '../../components/Tool_we_use/Tools_we_use'
 import Mentor from '../../components/Mentor/Mentor'
-import Placement_record from '../../components/Placement_record/Placement_record'
+import PlacementRecord from '../../components/Placement_record/Placement_record'
 import Company from '../../components/Company/Company'
 import FAQ from '../../components/FAQ/FAQ'
-import Course_timeline from '../../components/Course_timeline/Course_timeline'
+import CourseTimeline from '../../components/Course_timeline/Course_timeline'
 const Learning_track = () => {
   return (
     <div className=''>
@@ -48,7 +48,7 @@ const Learning_track = () => {
                     </div>
                 </div>
                 <div className="right">
-                    <img src={Banner_img} alt="banner image not found" className='learn-banner-image'/>
+                    <img src={Banner_img} alt="banner not found" className='learn-banner-image'/>
                 </div>
 
 
@@ -56,14 +56,14 @@ const Learning_track = () => {
             </div>
         </div>
         </div>
-            <Course_timeline/>
+            <CourseTimeline/>
         <div className="container">
 
                 <Success/>
 
                 <Whyus/>
-                <Tools_we_use/>
-                <Placement_record/>
+                <ToolsWeUse/>
+                <PlacementRecord/>
                 <Company/>
                 <Mentor/>
                 
@@ -75,7 +75,7 @@ const Learning_track = () => {
             
             <div className="certificate-wrapper">
                 <div className="left">
-                    <img src="https://assets.nextleap.app/images/pdf_certificate_new.png" alt="banner image not found" className='learn-banner-image'/>
+                    <img src="https://assets.nextleap.app/images/pdf_certificate_new.png" alt="bannernot found" className='learn-banner-image'/>
                
                    
                 </div>

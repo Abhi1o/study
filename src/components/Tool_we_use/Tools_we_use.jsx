@@ -32,6 +32,9 @@ const Tools_we_use = () => {
                             <div className="tools-we-card">
                             <SiHiveBlockchain className='icon'/>
                             </div>
+                            <div className="tools-we-card">
+                            <SiMysql className='icon'/>
+                            </div>
                         </div>
                     </div>
   )

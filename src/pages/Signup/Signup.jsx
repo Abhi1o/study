@@ -6,11 +6,11 @@ import { createUserWithEmailAndPassword } from 'firebase/auth';
 import {auth,db} from "../../auth";
 import {setDoc,doc} from "firebase/firestore"
 import "./Signup.scss"
-import { ToastContainer, toast } from 'react-toastify';
+import { toast } from 'react-toastify';
 const Signup = () => {
     const [email, setEmail] = useState("")
     const [password, setPassword] = useState("")
-    const [confirmpass, setConfirmpass]=useState("")
+    // const [confirmpass, setConfirmpass]=useState("")
     const [name, setName] = useState("")
 
 

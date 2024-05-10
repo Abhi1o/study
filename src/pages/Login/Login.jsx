@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 import shape_26 from "../../assets/images/shape/shape-26.png"
 import login_img from "../../assets/images/register-login.png"
 import "./Login.scss"
-import { ToastContainer, toast } from 'react-toastify';
-import {auth } from "../../auth"
+// import { toast } from 'react-toastify';
+// import {auth } from "../../auth"
 const Login = () => {
 
 

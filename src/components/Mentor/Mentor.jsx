@@ -1,5 +1,5 @@
 import React from 'react'
-import profile_img from "../../assets/images/author/Ellipse 14.png"
+import profile from "../../assets/images/author/Ellipse 14.png"
 import { SiTata } from "react-icons/si";
 import "./Mentor.scss"
 
@@ -11,7 +11,7 @@ const Mentor = () => {
                         <div className="mentor-wrapper">
                             
                                 <div className="mentor-card">
-                                    <img src={profile_img} alt='image not found'/>
+                                    <img src={profile} alt='not found'/>
                                     <div className="mentor_name">
                                         <h5>Vidya</h5>
                                         <p>Mtech</p>
@@ -20,7 +20,7 @@ const Mentor = () => {
 
                                 </div>
                                 <div className="mentor-card">
-                                    <img src={profile_img} alt='image not found'/>
+                                    <img src={profile} alt='not found'/>
                                     <div className="mentor_name">
                                         <h5>Vidya</h5>
                                         <p>Mtech</p>
@@ -29,7 +29,7 @@ const Mentor = () => {
 
                                 </div>
                                 <div className="mentor-card">
-                                    <img src={profile_img} alt='image not found'/>
+                                    <img src={profile} alt='not found'/>
                                     <div className="mentor_name">
                                         <h5>Vidya</h5>
                                         <p>Mtech</p>
@@ -38,7 +38,7 @@ const Mentor = () => {
 
                                 </div>
                                 <div className="mentor-card">
-                                    <img src={profile_img} alt='image not found'/>
+                                    <img src={profile} alt='not found'/>
                                     <div className="mentor_name">
                                         <h5>Vidya</h5>
                                         <p>Mtech</p>

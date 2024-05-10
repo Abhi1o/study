@@ -163,7 +163,7 @@ const Header = () => {
                 </ul>
               </div>
               <div className="header-toggle d-lg-none">
-                <Link className="menu-toggle" to="javascript:void(0)">
+                <Link className="menu-toggle" to="#">
                   <span></span>
                   <span></span>
                   <span></span>

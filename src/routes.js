@@ -2,9 +2,9 @@ import React from "react";
 import Home from "./pages/Home/Home.jsx"
 import Login from "./pages/Login/Login.jsx";
 import Signup from "./pages/Signup/Signup.jsx";
-import Course_detail from "./pages/Course_detail/Course_detail.jsx"; 
+import CourseDetail from "./pages/Course_detail/Course_detail.jsx"; 
 import Error404 from "./pages/404_Error/404_Error.jsx";
-import Learning_track from "./pages/Learning_track/Learning_track.jsx";
+import LearningTrack from "./pages/Learning_track/Learning_track.jsx";
 import About from "./pages/About/About.jsx";
 const routes = [
     {
@@ -25,11 +25,11 @@ const routes = [
     },
     {
         path:'/course_detail',
-        element:<Course_detail/>
+        element:<CourseDetail/>
     },
     {
         path:'/learning_track',
-        element:<Learning_track/>
+        element:<LearningTrack/>
     },
     {
         path:'/about',
