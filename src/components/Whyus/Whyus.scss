@@ -1,0 +1,63 @@
+@import "../../assets/scss/style.scss";
+
+.whyus-container{
+    margin:80px 0;
+    .main-title{
+            
+            padding-bottom: 20px;
+        }
+    .whyus-wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        width: 100%;
+        justify-content: center;
+
+        @media #{$small-mobile}{
+            flex-direction: column;
+            gap: 10px;
+
+        }
+
+        
+        .whyus-card{
+            flex-shrink: 0;
+            width: 32%;
+            background-color: #2b2b2b;
+            color: #fff;
+            border-radius: 10px;
+            padding: 20px 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            @media #{$small-mobile}{
+                max-width: 100%;
+
+            }
+
+            .icon{
+                font-size: 50px;
+                background-color: #fff;
+                padding: 15px;
+                border-radius: 10px;
+                align-items: flex-start;
+                color: #000;
+                
+            }
+            & h4{
+                font-size: 18px;
+                font-weight: 700;
+                margin: 23px 0  0 0;
+            }
+            & p{
+                font-size: 15px;
+                font-weight: 400;
+                margin: 7px 0;
+                line-height: 1.5;
+                color: $secondary;
+            }
+
+        }
+    }
+}

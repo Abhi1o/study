@@ -1,0 +1,401 @@
+@import "../../assets/scss/style.scss";
+
+// about container
+.about-container {
+    padding: 100px 0 0px 0;
+    background-color: $secondary;
+    width: 100%;
+
+    .about-banner {
+        padding: 40px 0 48px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 3px solid #ffe4fc;
+
+        .about-header {
+            margin-bottom: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            // title
+            .about-banner-title {
+                border: 1px solid rgba($primary, 0.2);
+                border-radius: 20px;
+                padding: 5px 30px;
+                margin: 0 0 10px;
+                p {
+                    font-size: 18px;
+                    font-weight: 400;
+                    margin: 0;
+                    color: #202020;
+                }
+            }
+            // header
+            .about-banner-header {
+                margin: 0 0 20px;
+
+                h1 {
+                    font-size: 50px;
+                    font-weight: 700;
+                    margin: 0 auto;
+                    color: #202020;
+                    width: 90%;
+                    text-align: center;
+                    line-height: normal;
+                }
+            }
+
+            // description
+
+            .about-banner-description {
+                margin: 10px 0 10px;
+                p {
+                    font-size: 15px;
+                    font-weight: 500;
+                    color: #5a5a5a;
+                    margin: 0;
+                    line-height: 1.5;
+                }
+            }
+        }
+
+        // follow button
+        .about-follow {
+            background-color: #f1f9fa;
+            border-radius: 10px;
+            padding: 11px 40px;
+            border: 1px solid #d0d0d0;
+            color: #4a4a4a;
+            margin: 30px 0;
+
+            .about-follow-container {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 20px;
+                span {
+                    font-size: 14px;
+                    font-weight: 500;
+                    color: #414141;
+                    margin: 0;
+                }
+                .about-follow-button {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 20px;
+                    margin: 0;
+
+                    button {
+                        background-color: #fff;
+                        color: #202020;
+                        border: none;
+                        border-radius: 10px;
+                        padding: 10px 40px;
+                        font-size: 14px;
+                        font-weight: 500;
+                        cursor: pointer;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}
+.aboutzone-image {
+    width: 40%;
+    margin: 0 auto;
+    img {
+    }
+}
+.about-mission {
+    width: 100%;
+    // mission heading
+    .about-mission-h {
+        text-align: center;
+        border-bottom: 1px solid #848484;
+        padding-bottom: 50px;
+
+        .mission-h {
+            font-size: 38px;
+            font-weight: 700;
+            margin: 0 auto;
+            color: #202020;
+            text-align: center;
+            line-height: normal;
+            margin: 10px 0 30px;
+        }
+        .mission-p {
+            font-size: 19px;
+            font-weight: 400;
+            color: #5a5a5a;
+            margin: 0;
+            line-height: 1.5;
+        }
+    }
+    .about-mission-cards-container {
+        padding: 10px 0 0 0;
+        margin-bottom: 100px;
+        .about-mission-cards-h {
+            text-align: center;
+            font-size: 30px;
+            font-weight: 600;
+        }
+        .about-mission-card-wrapper {
+            background-color: #fbfbfb;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            flex-direction: row;
+            gap: 20px;
+            border: 1px solid #ffffff;
+            border-radius: 10px;
+            padding: 20px 20px;
+
+            .about-mission-card-o,
+            .about-mission-card-f,
+            .about-mission-card-tr,
+            .about-mission-card-tw {
+                padding: 15px;
+                border-radius: 10px;
+                h3 {
+                    font-size: 20px;
+                    font-weight: 700;
+                    margin: 0;
+                    color: #202020;
+                }
+            }
+            .about-mission-card-o {
+                background-color: #f1fff2;
+                border: 1px solid #a1edcb;
+            }
+            .about-mission-card-f {
+                background-color: #f5f7ff;
+                border: 1px solid #abd5f4;
+            }
+            .about-mission-card-tr {
+                background-color: #fff2fc;
+                border: 1px solid #f0a5d7;
+            }
+            .about-mission-card-tw {
+                background-color: #fffcf1;
+                border: 1px solid #eecf9f;
+            }
+        }
+    }
+}
+
+// timeline
+.about-timeline-container {
+    width: 100%;
+    background-color: $primary;
+    padding: 50px 0;
+    .about-timeline-wrapper {
+        //timeline
+        position: relative;
+        max-width: 1000px;
+
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        height: 350px;
+        .about-timeline-content {
+            //container
+            position: relative;
+            height: 50%;
+            padding: 30px 0px;
+            border-radius: 10px;
+            display: flex;
+
+            .about-timeline-textbox {
+                //box
+                padding: 20px 30px;
+                background-color: #ffffff;
+
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+                position: relative;
+                border-radius: 10px;
+                font-size: 15px;
+                border-radius: 5px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                h3 {
+                    font-size: 24px;
+                    color: #333;
+                    margin: 5px 0;
+                }
+
+                p {
+                    font-size: 16px;
+                    color: #555;
+                }
+            }
+            &.up {
+                position: relative;
+                top: 0%;
+
+                z-index: 1;
+                margin-bottom: 20px; /* Added margin to move box above the line */
+                .point {
+                }
+                //
+            }
+
+            &.down {
+                position: relative;
+                top: 50%;
+                .point {
+                    top: -6%;
+                }
+                hr{
+                    top:-1%;
+                }
+            }
+            .point {
+                position: absolute;
+                width: 20px;
+                height: 20px;
+                border-radius: 50%;
+                border: 5px solid #ffffff;
+                top: 94%;
+                transform: translateY(-50%);
+                z-index: 1;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+            hr{
+                position: absolute;
+                
+                height: 20px;
+                border-left: solid 3px #ffffff;
+                top:80%;
+                transform: translateY(-50%);
+                z-index:0;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+        }
+
+        &::after {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 4px;
+            background-color: #303030;
+            left: 0%;
+            top: 50%;
+            transform: translateY(-50%);
+            border-radius: 10px;
+        }
+    }
+}
+// .about-timeline-container {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     padding: 100px 0;
+//     // background-color:$primary ;
+
+//     .about-timeline-wrapper {
+//       display: flex;
+//       justify-content: center;
+//     //   align-items: flex-start;
+
+//       .about-timeline-content {
+//         position: relative;
+//         // flex: 1;
+//         display: flex;
+//         flex-direction: column;
+//         align-items: center;
+//         padding: 20px;
+
+//         .about-timeline-textbox {
+//           position: relative;
+//           padding: 20px;
+//           background-color: #f7f7f7;
+//           border-radius: 5px;
+//           box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+//           display: flex;
+//           flex-direction: column;
+//           align-items: center;
+//           text-align: center;
+
+//           h3 {
+//             font-size: 24px;
+//             color: #333;
+//             margin: 5px 0;
+//           }
+
+//           p {
+//             font-size: 16px;
+//             color: #555;
+//           }
+//         }
+
+//         &::before {
+//           content: '';
+//           position: absolute;
+//           top: 50%;
+//           left: 0;
+//           width: 100%;
+//           height: 1px;
+//           background-color: #ccc;
+//           z-index: -1;
+//         }
+
+//         &.up {
+//           .about-timeline-textbox {
+//             position: absolute;
+//             top: 0%;
+//             z-index: 1;
+//             background-color: #f7f7f7;
+//             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+//             margin-bottom: 20px; /* Added margin to move box above the line */
+//           }
+
+//           &::after {
+//             content: '';
+//             position: absolute;
+//             top: calc(100% + 10px); /* Adjust the distance from the line */
+//             left: 50%;
+//             transform: translateX(-50%);
+//             width: 10px;
+//             height: 10px;
+//             background-color: #333;
+//             border-radius: 50%;
+//           }
+//         }
+
+//         &.down {
+//           .about-timeline-textbox {
+//             position: absolute;
+//             top: 50%;
+//             z-index: 1;
+//             background-color: #fff;
+//             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+//             margin-top: 20px; /* Added margin to move box below the line */
+//           }
+
+//           &::after {
+//             content: '';
+//             position: absolute;
+//             bottom: calc(100% + 10px); /* Adjust the distance from the line */
+//             left: 50%;
+//             transform: translateX(-50%);
+//             width: 10px;
+//             height: 10px;
+//             background-color: #333;
+//             border-radius: 50%;
+//           }
+//         }
+//       }
+//     }
+//   }

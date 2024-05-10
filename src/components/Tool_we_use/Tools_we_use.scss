@@ -1,0 +1,39 @@
+@import "../../assets/scss/style.scss";
+
+.tools-we-container{
+    margin:80px 0;
+    .main-title{
+            
+            padding-bottom: 20px;
+        }
+    .tools-we-wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        
+        .tools-we-card{
+            flex-shrink: 1;
+            max-width: 400px;
+            background-color: $primary;
+            color: #fff;
+            border-radius: 99px;
+            padding: 10px 10px;
+            display: flex;
+            flex-direction: column;
+            margin: 10px 5px 0 5px;
+
+            .icon{
+                font-size: 70px;
+                background-color: #fff;
+                padding: 15px;
+                border-radius: 999px;
+                align-items: flex-start;
+                color: #000;
+                
+            }
+
+        }
+    }
+}
