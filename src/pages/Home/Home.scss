@@ -40,7 +40,7 @@
             display: none;
         }
 
-        & .shape-1{}
+        
     }
 }
 
@@ -434,7 +434,7 @@
         width: 45%;
     }
 
-    & .shape-1{}
+    
 
     & .video-play{
         position: absolute;
@@ -684,8 +684,8 @@
             margin-top: 0;
         }
 
-        & .main-title{
-        }
+        // & .main-title{
+        // }
     }
 }
 
@@ -1368,8 +1368,8 @@
         max-width: 415px;
         margin-top: 25px;
 
-        & .sub-title{}
-        & .main-title{}
+        // & .sub-title{}
+        // & .main-title{}
     }
 }
 .call-to-container{
@@ -1518,7 +1518,7 @@
     @media #{$large-mobile}{
         display: none;
     }
-    & .arrow{}
+    // & .arrow{}
 }
 
 /*--
