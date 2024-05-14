@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 // require('dotenv').config()
 
 import './App.scss';
@@ -11,6 +11,12 @@ import { useLocation } from "react-router-dom";
 function App() {
   const location = useLocation();
   const currentRoute = location.pathname;
+
+  useEffect(()=>{
+    window.scrollTo(0, 0);
+
+  },[location]);
+  
   return (
     <div className="App">
       <Header/>

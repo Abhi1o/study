@@ -9,7 +9,7 @@
     .whyus-wrapper{
         display: flex;
         flex-wrap: wrap;
-        gap: 20px;
+        gap: 31px;
         width: 100%;
         justify-content: center;
 
@@ -22,40 +22,45 @@
         
         .whyus-card{
             flex-shrink: 0;
-            width: 32%;
-            background-color: #2b2b2b;
+            width: 30%;
+            background-color: $secondary;
             color: #fff;
             border-radius: 10px;
             padding: 20px 30px;
             display: flex;
             flex-direction: column;
             justify-content: center;
+             box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 
             @media #{$small-mobile}{
                 max-width: 100%;
 
             }
+            .whyus-card:hover{
+                border:1px solid $primary
+            }
 
             .icon{
                 font-size: 50px;
-                background-color: #fff;
+                background-color: $primary;
                 padding: 15px;
                 border-radius: 10px;
                 align-items: flex-start;
-                color: #000;
+                color: #ffffff;
                 
             }
             & h4{
-                font-size: 18px;
+                font-size: 20px;
                 font-weight: 700;
                 margin: 23px 0  0 0;
+                color:rgb(36, 36, 36)
             }
             & p{
                 font-size: 15px;
                 font-weight: 400;
                 margin: 7px 0;
                 line-height: 1.5;
-                color: $secondary;
+                color: #575757;
             }
 
         }

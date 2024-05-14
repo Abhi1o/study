@@ -27,6 +27,15 @@ const Feedback = () => {
 
     
         <>
+        <div className=" section-padding mt-n1">
+            <div className="container">
+
+                {/* Section Title Start */}
+                <div className="section-title shape-03 text-center">
+                    <h2 className="main-title">Student <span> Feedback</span></h2>
+                </div>
+
+
           <div className="feedback-contain">
                     <div className="feedback-container">
                         <div className="feedback-card">
@@ -96,6 +105,8 @@ const Feedback = () => {
 
                     </div>
 
+                    </div>
+                    </div>
                     </div>
                 
         </>

@@ -2,59 +2,120 @@
 
 
 
-.mentor-container{
-    margin:80px 0;
-    .main-title{
-            
-            padding-bottom: 20px;
-        }
-    .mentor-wrapper{
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            align-items: center;
+// MentorCard.scss
 
-        .mentor-card{
-            background-color: $secondary;
-            border-radius: 10px;
-            padding: 10px 30px;
-            color: #000;
-            display: flex;
-            justify-content: space-evenly;
-            flex-direction: column;
-            align-items: center;
-            width: 220px;
-            height:290px;
-            margin: 15px 15px;
-            p{
-                font-size: 18px;
-                margin: 0;
-            }
-            img{
-                width: 100px;
-                height: 100px;
-                margin-bottom: 5px;
-            }
-            .mentor_name{
-                font-size: 25px;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-                h5{
-                    margin: 5px;
-                }
-                p{
-                    font-size: 20px;
-                    color: $body-color;
-                    font-weight: 400;
-                }
-            }
-            .company-logo{
-                
-                font-size: 30px;
-            }
-        }
-    
+.mentor-card {
+   padding: 30px 36px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: transform 0.3s ease;
+  
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
     }
-}
+  
+    img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 99%;
+      border : 3px solid $secondary;
+      padding: 5px;
+      margin-bottom: 20px;
+    }
+  
+    h3 {
+      margin: 10px 0;
+      font-size: 1.5rem;
+      font-weight: 500;
+    }
+    h5{
+      margin: 15px 0 10px 0 ;
+      font-size: 1rem;
+      color: #585858;
+    }
+  
+    p {
+      margin-bottom: 20px;
+      font-size: 0.8rem;
+      color: #686868;
+      line-height: 1.2rem;
+    }
+  
+    .social-links {
+      display: flex;
+      flex-direction: row-reverse;
+      align-items: start;
+  
+      a {
+        color: #333;
+        text-decoration: none;
+        transition: color 0.3s ease;
+  
+        &:hover {
+          color: #007bff;
+        }
+      }
+    }
+  }
+  
+
+// .mentor-container{
+//     margin:80px 0;
+//     .main-title{
+            
+//             padding-bottom: 20px;
+//         }
+//     .mentor-wrapper{
+//             display: flex;
+//             flex-wrap: wrap;
+//             justify-content: center;
+//             align-items: center;
+
+//         .mentor-card{
+//             background-color: $secondary;
+//             border-radius: 10px;
+//             padding: 10px 30px;
+//             color: #000;
+//             display: flex;
+//             justify-content: space-evenly;
+//             flex-direction: column;
+//             align-items: center;
+//             width: 220px;
+//             height:290px;
+//             margin: 15px 15px;
+//             p{
+//                 font-size: 18px;
+//                 margin: 0;
+//             }
+//             img{
+//                 width: 100px;
+//                 height: 100px;
+//                 margin-bottom: 5px;
+//             }
+//             .mentor_name{
+//                 font-size: 25px;
+//                 display: flex;
+//                 flex-direction: column;
+//                 justify-content: center;
+//                 align-items: center;
+//                 h5{
+//                     margin: 5px;
+//                 }
+//                 p{
+//                     font-size: 20px;
+//                     color: $body-color;
+//                     font-weight: 400;
+//                 }
+//             }
+//             .company-logo{
+                
+//                 font-size: 30px;
+//             }
+//         }
+    
+//     }
+// }

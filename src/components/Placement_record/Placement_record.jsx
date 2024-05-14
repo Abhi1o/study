@@ -3,7 +3,7 @@ import"./Placement_record.scss"
 const Placement_record = () => {
   return (
     <div className="place-record-container section-title">
-                        <h1 className="main-title">placement Record Details</h1>
+                        <h1 className="main-title"><span>placement</span> Record Details</h1>
                         <div className="place-record-wrapper">
                             <h1 className='main-title'>Software Developer</h1>
                             <hr/>

@@ -9,8 +9,8 @@ const Whyus = () => {
                         <h1 className="main-title"><span>Why Us</span></h1>
                         <div className="whyus-wrapper">
                             <div className="whyus-card">
-                            <LuClipboardEdit className='icon'/>
-                            <h4>1:1 Guidance </h4>
+                                <LuClipboardEdit className='icon'/>
+                                <h4>1:1 Mentorship </h4>
                                 <p>1:1 Career coaching Sessions with top industry professionals</p>
 
                             </div>

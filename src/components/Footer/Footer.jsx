@@ -7,160 +7,149 @@ import "./Footer.scss"
 
 const Footer = () => {
   return (
-    <div>
-      <div className="section footer-section">
-        {/* Footer Widget Section Start */}
-        <div className="footer-widget-section">
-          
+    <div className="main-wrapper">
+       {/* Footer Start  */}
+        <div className="section footer-section">
 
-          <div className="container">
-            <div className="footer-container">
-              <div className="footer-left-content
-              ">
-                {/* Footer Widget Start */}
-                <div className="footer-widget">
-                  <div className="widget-logo">
-                  <Link to="/">
-                      <img src={logo_img} alt="Logo" />
-                      </Link>
-                  </div>
+            {/* Footer Widget Section Start */}
+            <div className="footer-widget-section">
 
-                  <div className="widget-address">
-                    <h4 className="footer-widget-title">Bangalore</h4>
-                    <p>Bangalore, India (IN).</p>
-                  </div>
+                <img className="shape-1 animation-down" src={shape_22} alt="Shape"/>
 
-                  <ul className="widget-info">
-                    <li>
-                      <p>
-                        {" "}
-                        <i className="flaticon-email"></i>{" "}
-                        <Link to="mailto:address@gmail.com">address@gmail.com</Link>{" "}
-                      </p>
-                    </li>
-                    <li>
-                      <p>
-                        {" "}
-                        <i className="flaticon-phone-call"></i>{" "}
-                        <Link to="tel:9702621413">(970) 262-1413</Link>{" "}
-                      </p>
-                    </li>
-                  </ul>
+                <div className="container">
+                    <div className="row">
+                        <div className="col-lg-3 col-md-6 order-md-1 order-lg-1">
 
-                  <ul className="widget-social">
-                    <li>
-                      <Link to="#">
-                        <i className="flaticon-facebook"></i>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="#">
-                        <i className="flaticon-twitter"></i>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="#">
-                        <i className="flaticon-skype"></i>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="#">
-                        <i className="flaticon-instagram"></i>
-                      </Link>
-                    </li>
-                  </ul>
-                </div>
-                {/* Footer Widget End */}
-              </div>
-              <div className="footer-middle-content">
-                {/* Footer Widget Link Start */}
-                <div className="footer-widget-link">
-                  {/* Footer Widget Start */}
-                  <div className="footer-widget">
-                    <h4 className="footer-widget-title">Category</h4>
+                            {/* Footer Widget Start */}
+                            <div className="footer-widget">
+                                <div className="widget-logo">
+                                    <Link to="/" ><h1>Divisor</h1></Link>
+                                </div>
 
-                    <ul className="widget-link">
-                    <li><Link to="/">Creative Writing</Link></li>
-                                        <li><Link to="/">Film & Video</Link></li>
-                                        <li><Link to="/">Graphic Design</Link></li>
-                                        <li><Link to="/">UI/UX Design</Link></li>
-                                        <li><Link to="/">Business Analytics</Link></li>
-                                        <li><Link to="/">Marketing</Link></li>
-                    </ul>
-                  </div>
-                  {/* Footer Widget End */}
+                                <div className="widget-address">
+                                    <h4 className="footer-widget-title">Caribbean Ct</h4>
+                                    <p>Haymarket, Virginia (VA).</p>
+                                </div>
 
-                  {/* Footer Widget Start */}
-                  <div className="footer-widget">
-                    <h4 className="footer-widget-title">Quick Links</h4>
+                                <ul className="widget-info">
+                                    <li>
+                                        <p> <i className="flaticon-email"></i> <a href="mailto:address@gmail.com">address@gmail.com</a> </p>
+                                    </li>
+                                    <li>
+                                        <p> <i className="flaticon-phone-call"></i> <a href="tel:9702621413">(970) 262-1413</a> </p>
+                                    </li>
+                                </ul>
 
-                    <ul className="widget-link">
-                    <li><Link to="/">Privacy Policy</Link></li>
-                                        <li><Link to="/">Discussion</Link></li>
-                                        <li><Link to="/">Terms & Conditions</Link></li>
-                                        <li><Link to="/">Customer Support</Link></li>
-                                        <li><Link to="/">Course FAQ’s</Link></li>
-                    </ul>
-                  </div>
-                  {/* Footer Widget End */}
-                </div>
-                {/* Footer Widget Link End */}
-              </div>
-              <div className="footer-right-content">
-                {/* Footer Widget Start */}
-                <div className="footer-widget">
-                  <h4 className="footer-widget-title">Subscribe</h4>
+                                <ul className="widget-social">
+                                    <li><a href="#"><i className="flaticon-facebook"></i></a></li>
+                                    <li><a href="#"><i className="flaticon-twitter"></i></a></li>
+                                    <li><a href="#"><i className="flaticon-skype"></i></a></li>
+                                    <li><a href="#"><i className="flaticon-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                            {/* Footer Widget End */}
 
-                  <div className="widget-subscribe">
-                    <p>
-                      Lorem Ipsum has been them an industry printer took a
-                      galley make book.
-                    </p>
+                        </div>
+                        <div className="col-lg-6 order-md-3 order-lg-2">
 
-                    <div >
-                      <form action="#" className="widget-form">
-                        <input type="text" placeholder="Email here" />
-                        <button className="btn btn-primary btn-hover-dark">
-                          Subscribe Now
-                        </button>
-                      </form>
+                            {/* Footer Widget Link Start */}
+                            <div className="footer-widget-link">
+
+                                {/* Footer Widget Start */}
+                                <div className="footer-widget">
+                                    <h4 className="footer-widget-title">Category</h4>
+
+                                    <ul className="widget-link">
+                                        <li><a href="#">Creative Writing</a></li>
+                                        <li><a href="#">Film & Video</a></li>
+                                        <li><a href="#">Graphic Design</a></li>
+                                        <li><a href="#">UI/UX Design</a></li>
+                                        <li><a href="#">Business Analytics</a></li>
+                                        <li><a href="#">Marketing</a></li>
+                                    </ul>
+
+                                </div>
+                                {/* Footer Widget End */}
+
+                                {/* Footer Widget Start */}
+                                <div className="footer-widget">
+                                    <h4 className="footer-widget-title">Quick Links</h4>
+
+                                    <ul className="widget-link">
+                                        <li><a href="#">Privacy Policy</a></li>
+                                        <li><a href="#">Discussion</a></li>
+                                        <li><a href="#">Terms & Conditions</a></li>
+                                        <li><a href="#">Customer Support</a></li>
+                                        <li><a href="#">Course FAQ’s</a></li>
+                                    </ul>
+
+                                </div>
+                                {/* Footer Widget End */}
+
+                            </div>
+                            {/* Footer Widget Link End */}
+
+                        </div>
+                        <div className="col-lg-3 col-md-6 order-md-2 order-lg-3">
+
+                            {/* Footer Widget Start */}
+                            <div className="footer-widget">
+                                <h4 className="footer-widget-title">Subscribe</h4>
+
+                                <div className="widget-subscribe">
+                                    <p>Lorem Ipsum has been them an industry printer took a galley make book.</p>
+
+                                    <div className="widget-form">
+                                        <form action="#">
+                                            <input type="text" placeholder="Email here"/>
+                                            <button className="btn btn-primary btn-hover-dark">Subscribe Now</button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            {/* Footer Widget End */}
+
+                        </div>
                     </div>
-                  </div>
                 </div>
-                {/* Footer Widget End */}
-              </div>
+
+                <img className="shape-2 animation-left" src={shape_22} alt="Shape"/>
+
             </div>
-          </div>
+            {/* Footer Widget Section End */}
 
-          <img
-            className="shape-2 animation-left"
-            src={shape_22}
-            alt="Shape"
-          />
-        </div>
-        {/* Footer Widget Section End */}
-
-        {/* Footer Copyright Start */}
-        <div className="footer-copyright">
-          <div className="container">
             {/* Footer Copyright Start */}
-            <div className="copyright-wrapper">
-              
-              <div className="copyright-text">
-                <p>
-                  &copy; 2024 <span> Divisor </span> Made with{" "}
-                  <i className="icofont-heart-alt"></i> by{" "}
-                  <Link to="#">Divisor.com</Link>
-                </p>
-              </div>
+            <div className="footer-copyright">
+                <div className="container">
+
+                    {/* Footer Copyright Start */}
+                    <div className="copyright-wrapper">
+                        <div className="copyright-link">
+                            <a href="#">Terms of Service</a>
+                            <a href="#">Privacy Policy</a>
+                            <a href="#">Sitemap</a>
+                            <a href="#">Security</a>
+                        </div>
+                        <div className="copyright-text">
+                            <p>&copy; 2024 <span> Divisor </span> Made by <i className="icofont-heart-alt"></i> <a href="#">Divisor.in</a></p>
+                        </div>
+                    </div>
+                    {/* Footer Copyright End */}
+
+                </div>
             </div>
             {/* Footer Copyright End */}
-          </div>
+
         </div>
-        {/* Footer Copyright End */}
-      </div>
-    </div>
-  );
+        {/* Footer End */}
+
+        {/*Back To Start*/}
+        <a href="#" className="back-to-top">
+            <i className="icofont-simple-up"></i>
+        </a>
+        {/*Back To End*/}
+        </div>
+  )
 };
 
 export default Footer;

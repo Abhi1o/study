@@ -29,10 +29,10 @@ body {
     height: 100%;
 }
 body {
-    // position: relative;
-    // outline: none;
-    // visibility: visible;
-    // overflow-X: hidden;
+    position: relative;
+    outline: none;
+    visibility: visible;
+    overflow-X: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 
@@ -47,7 +47,6 @@ a,
 button {
     transition: $transition-base;
     outline: 0;
-    
 
     &:focus{
         outline: 0;
@@ -78,10 +77,6 @@ img{
     max-width: 100%;
 }
 
-.section-title.shape-03 {
-    padding-bottom:11px;
-}
-
 /* Section Style */
 .section,
 .main-wrapper {
@@ -96,18 +91,10 @@ img{
         padding-bottom: 65px;
     }
 }
-.text-center{
-    text-align: center;
-}
 
 /* Custom Container */
 .custom-container{
     max-width: 1750px;
-
-}
-.container{
-    width: 1200px;
-    margin: 0 auto;
 }
 
 /* Section Padding */

@@ -30,7 +30,7 @@ const Success = () => {
   return (
     <>
       <div className="">
-        <h1 className="main-title">Success Stories</h1>
+        <h1 className="main-title">Student Placed</h1>
         <div className="success-wrapper">
           <Swiper
             loop={true}
