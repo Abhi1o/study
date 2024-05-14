@@ -1,7 +1,12 @@
 {
+<<<<<<< HEAD
   
   "name": "divisor",
   
+=======
+  "homepage": "/",
+  "name": "edule",
+>>>>>>> f6c54c01b569b5a0806bbf611ac25950dad6487d
   "version": "0.1.0",
   
   "private": true,
