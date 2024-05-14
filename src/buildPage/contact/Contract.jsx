@@ -24,7 +24,7 @@ const Contract = () => {
                 {/* Page Banner Start */}
                 <div className="page-banner-content">
                     <ul className="breadcrumb">
-                        <li><a href="#">Home</a></li>
+                        <li><a href="#top">Home</a></li>
                         <li className="active">Contact Us</li>
                     </ul>
                     <h2 className="title">Contact <span>Us</span></h2>
@@ -192,8 +192,8 @@ const Contract = () => {
                     {/* Download App Button End */}
                     <div className="download-app-btn">
                         <ul className="app-btn">
-                            <li><a href="#"><img src={google_play} alt="Google Play"/></a></li>
-                            <li><a href="#"><img src={app_store} alt="App Store"/></a></li>
+                            <li><a href="#top"><img src={google_play} alt="Google Play"/></a></li>
+                            <li><a href="#top"><img src={app_store} alt="App Store"/></a></li>
                         </ul>
                     </div>
                     {/* Download App Button End */}

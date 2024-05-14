@@ -49,7 +49,7 @@ useEffect(() => {
            {/* Page Banner Start */}
             <div className="page-banner-content">
                 <ul className="breadcrumb">
-                    <li><a href="#">Home</a></li>
+                    <li><a href="#top">Home</a></li>
                     <li className="active">Courses Details</li>
                 </ul>
                 <h2 className="title">Courses <span> Details</span></h2>
@@ -107,7 +107,7 @@ useEffect(() => {
                                     <img src={author_01} alt="Author"/>
                                 </div>
                                 <div className="author-content">
-                                    <a className="name" href="#">Pamela Foster</a>
+                                    <a className="name" href="#top">Pamela Foster</a>
                                     <span className="Enroll">286 Enrolled Students</span>
                                 </div>
                             </div>
@@ -393,7 +393,7 @@ useEffect(() => {
 
                                                        {/* Reviews Form Start */}
                                                         <div className="modal-body reviews-form">
-                                                            <form action="#">
+                                                            <form action="#top">
                                                                 <div className="row">
                                                                     <div className="col-md-6">
                                                                        {/* Single Form Start */}
@@ -481,7 +481,7 @@ useEffect(() => {
                                 </ul>
                             </div>
                             <div className="info-btn">
-                                <a href="#" className="btn btn-primary btn-hover-dark">Enroll Now</a>
+                                <a href="#top" className="btn btn-primary btn-hover-dark">Enroll Now</a>
                             </div>
                         </div>
                        {/* Sidebar Widget Information End */}
@@ -491,11 +491,11 @@ useEffect(() => {
                             <h4 className="widget-title">Share Course:</h4>
 
                             <ul className="social">
-                                <li><a href="#"><i className="flaticon-facebook"></i></a></li>
-                                <li><a href="#"><i className="flaticon-linkedin"></i></a></li>
-                                <li><a href="#"><i className="flaticon-twitter"></i></a></li>
-                                <li><a href="#"><i className="flaticon-skype"></i></a></li>
-                                <li><a href="#"><i className="flaticon-instagram"></i></a></li>
+                                <li><a href="#top"><i className="flaticon-facebook"></i></a></li>
+                                <li><a href="#top"><i className="flaticon-linkedin"></i></a></li>
+                                <li><a href="#top"><i className="flaticon-twitter"></i></a></li>
+                                <li><a href="#top"><i className="flaticon-skype"></i></a></li>
+                                <li><a href="#top"><i className="flaticon-instagram"></i></a></li>
                             </ul>
                         </div>
                        {/* Sidebar Widget Share End */}

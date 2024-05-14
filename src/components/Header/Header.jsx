@@ -185,7 +185,7 @@ const Header = () => {
 
                         {/* Header Mobile Toggle Start */}
                         <div className="header-toggle d-lg-none">
-                            <a className="menu-toggle" href="javascript:void(0)">
+                            <a className="menu-toggle" href="#top">
                                 <span></span>
                                 <span></span>
                                 <span></span>
@@ -207,7 +207,7 @@ const Header = () => {
         <div className="mobile-menu">
 
             {/* Menu Close Start */}
-            <a className="menu-close" href="javascript:void(0)">
+            <a className="menu-close" href="#top">
                 <i className="icofont-close-line"></i>
             </a>
             {/* Menu Close End */}
