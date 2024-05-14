@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo_img from "../../assets/images/logo.png"
+// import logo_img from "../../assets/images/logo.png"
 import shape_22 from "../../assets/images/shape/shape-22.png"
 // import shape_21 from "../../assets/images/shape/shape-21.png"
 import "./Footer.scss"
@@ -41,10 +41,10 @@ const Footer = () => {
                                 </ul>
 
                                 <ul className="widget-social">
-                                    <li><a href="#"><i className="flaticon-facebook"></i></a></li>
-                                    <li><a href="#"><i className="flaticon-twitter"></i></a></li>
-                                    <li><a href="#"><i className="flaticon-skype"></i></a></li>
-                                    <li><a href="#"><i className="flaticon-instagram"></i></a></li>
+                                    <li><a href="#top"><i className="flaticon-facebook"></i></a></li>
+                                    <li><a href="#top"><i className="flaticon-twitter"></i></a></li>
+                                    <li><a href="#top"><i className="flaticon-skype"></i></a></li>
+                                    <li><a href="#top"><i className="flaticon-instagram"></i></a></li>
                                 </ul>
                             </div>
                             {/* Footer Widget End */}
@@ -60,12 +60,12 @@ const Footer = () => {
                                     <h4 className="footer-widget-title">Category</h4>
 
                                     <ul className="widget-link">
-                                        <li><a href="#">Creative Writing</a></li>
-                                        <li><a href="#">Film & Video</a></li>
-                                        <li><a href="#">Graphic Design</a></li>
-                                        <li><a href="#">UI/UX Design</a></li>
-                                        <li><a href="#">Business Analytics</a></li>
-                                        <li><a href="#">Marketing</a></li>
+                                        <li><a href="#top">Creative Writing</a></li>
+                                        <li><a href="#top">Film & Video</a></li>
+                                        <li><a href="#top">Graphic Design</a></li>
+                                        <li><a href="#top">UI/UX Design</a></li>
+                                        <li><a href="#top">Business Analytics</a></li>
+                                        <li><a href="#top">Marketing</a></li>
                                     </ul>
 
                                 </div>
@@ -76,11 +76,11 @@ const Footer = () => {
                                     <h4 className="footer-widget-title">Quick Links</h4>
 
                                     <ul className="widget-link">
-                                        <li><a href="#">Privacy Policy</a></li>
-                                        <li><a href="#">Discussion</a></li>
-                                        <li><a href="#">Terms & Conditions</a></li>
-                                        <li><a href="#">Customer Support</a></li>
-                                        <li><a href="#">Course FAQ’s</a></li>
+                                        <li><a href="#top">Privacy Policy</a></li>
+                                        <li><a href="#top">Discussion</a></li>
+                                        <li><a href="#top">Terms & Conditions</a></li>
+                                        <li><a href="#top">Customer Support</a></li>
+                                        <li><a href="#top">Course FAQ’s</a></li>
                                     </ul>
 
                                 </div>
@@ -100,7 +100,7 @@ const Footer = () => {
                                     <p>Lorem Ipsum has been them an industry printer took a galley make book.</p>
 
                                     <div className="widget-form">
-                                        <form action="#">
+                                        <form action="#top">
                                             <input type="text" placeholder="Email here"/>
                                             <button className="btn btn-primary btn-hover-dark">Subscribe Now</button>
                                         </form>
@@ -125,13 +125,13 @@ const Footer = () => {
                     {/* Footer Copyright Start */}
                     <div className="copyright-wrapper">
                         <div className="copyright-link">
-                            <a href="#">Terms of Service</a>
-                            <a href="#">Privacy Policy</a>
-                            <a href="#">Sitemap</a>
-                            <a href="#">Security</a>
+                            <a href="#top">Terms of Service</a>
+                            <a href="#top">Privacy Policy</a>
+                            <a href="#top">Sitemap</a>
+                            <a href="#top">Security</a>
                         </div>
                         <div className="copyright-text">
-                            <p>&copy; 2024 <span> Divisor </span> Made by <i className="icofont-heart-alt"></i> <a href="#">Divisor.in</a></p>
+                            <p>&copy; 2024 <span> Divisor </span> Made by <i className="icofont-heart-alt"></i> <a href="#top">Divisor.in</a></p>
                         </div>
                     </div>
                     {/* Footer Copyright End */}
@@ -144,7 +144,7 @@ const Footer = () => {
         {/* Footer End */}
 
         {/*Back To Start*/}
-        <a href="#" className="back-to-top">
+        <a href="#top" className="back-to-top">
             <i className="icofont-simple-up"></i>
         </a>
         {/*Back To End*/}

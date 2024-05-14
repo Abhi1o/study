@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Header.scss";
-import logo_img from "../../assets/images/logo.png";
+// import logo_img from "../../assets/images/logo.png";
 import { IoCallOutline } from "react-icons/io5";
 import { TfiEmail } from "react-icons/tfi";
 import { LuFacebook } from "react-icons/lu";
@@ -88,15 +88,15 @@ const Header = () => {
 
                         {/* Header Top Left Start */}
                         <div className="header-top-left">
-                            <p>All course 28% off for <a href="#">Liberian people’s.</a></p>
+                            <p>All course 28% off for <a href="#top">Liberian people’s.</a></p>
                         </div>
                         {/* Header Top Left End */}
 
                         {/* Header Top Medal Start */}
                         <div className="header-top-medal">
                             <div className="top-info">
-                                <p><i className="flaticon-phone-call"></i> <a href="tel:9702621413">(970) 262-1413</a></p>
-                                <p><i className="flaticon-email"></i> <a href="mailto:address@gmail.com">address@gmail.com</a></p>
+                                <p><i className="flaticon-phone-call"><IoCallOutline/></i> <a href="tel:9702621413">(970) 262-1413</a></p>
+                                <p><i className="flaticon-email"><TfiEmail/></i> <a href="mailto:address@gmail.com">address@gmail.com</a></p>
                             </div>
                         </div>
                         {/* Header Top Medal End */}
@@ -104,10 +104,10 @@ const Header = () => {
                         {/* Header Top Right Start */}
                         <div className="header-top-right">
                             <ul className="social">
-                                <li><a href="#"><i className="flaticon-facebook"></i></a></li>
-                                <li><a href="#"><i className="flaticon-twitter"></i></a></li>
-                                <li><a href="#"><i className="flaticon-skype"></i></a></li>
-                                <li><Link to="https://www.instagram.com/divisor.in/tagged/?hl=en"><i className="flaticon-instagram"></i></Link></li>
+                                <li><a href="#top"><i className="flaticon-facebook"><LuFacebook/></i></a></li>
+                                <li><a href="#top"><i className="flaticon-twitter"><RiTwitterXLine/></i></a></li>
+                                <li><a href="#top"><i className="flaticon-skype"></i><PiSkypeLogo/></a></li>
+                                <li><Link to="https://www.instagram.com/divisor.in/tagged/?hl=en"><i className="flaticon-instagram"><FaInstagram/></i></Link></li>
                             </ul>
                         </div>
                         {/* Header Top Right End */}
@@ -149,10 +149,10 @@ const Header = () => {
                                     
                                 </li>
                                 {/* <li>
-                                    <a href="#">Blog</a>
+                                    <a href="#top">Blog</a>
                                     <ul className="sub-menu">
                                         <li>
-                                            <a href="#">Blog</a>
+                                            <a href="#top">Blog</a>
                                             <ul className="sub-menu">
                                                 <li><a href="blog-grid.html">Blog</a></li>
                                                 <li><a href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
@@ -160,7 +160,7 @@ const Header = () => {
                                             </ul>
                                         </li>
                                         <li>
-                                            <a href="#">Blog Details</a>
+                                            <a href="#top">Blog Details</a>
                                             <ul className="sub-menu">
                                                 <li><a href="blog-details-left-sidebar.html">Blog Details Left Sidebar</a></li>
                                                 <li><a href="blog-details-right-sidebar.html">Blog Details Right Sidebar</a></li>
@@ -233,14 +233,14 @@ const Header = () => {
                 <ul className="nav-menu">
                     <li><a href="index.html">Home</a></li>
                     <li>
-                        <a href="#">All Course</a>
+                        <a href="#top">All Course</a>
                         <ul className="sub-menu">
                             <li><a href="courses.html">Courses</a></li>
                             <li><a href="courses-details.html">Courses Details</a></li>
                         </ul>
                     </li>
                     <li>
-                        <a href="#">Pages </a>
+                        <a href="#top">Pages </a>
                         <ul className="sub-menu">
                             <li><a href="about.html">About</a></li>
                             <li><a href="register.html">Register</a></li>
@@ -258,10 +258,10 @@ const Header = () => {
                         </ul>
                     </li>
                     <li>
-                        <a href="#">Blog</a>
+                        <a href="#top">Blog</a>
                         <ul className="sub-menu">
                             <li>
-                                <a href="#">Blog</a>
+                                <a href="#top">Blog</a>
                                 <ul className="sub-menu">
                                     <li><a href="blog-grid.html">Blog</a></li>
                                     <li><a href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
@@ -269,7 +269,7 @@ const Header = () => {
                                 </ul>
                             </li>
                             <li>
-                                <a href="#">Blog Details</a>
+                                <a href="#top">Blog Details</a>
                                 <ul className="sub-menu">
                                     <li><a href="blog-details-left-sidebar.html">Blog Details Left Sidebar</a></li>
                                     <li><a href="blog-details-right-sidebar.html">Blog Details Right Sidebar</a></li>
@@ -286,10 +286,10 @@ const Header = () => {
             {/* Mobile Menu End */}
             <div className="mobile-social">
                 <ul className="social">
-                    <li><a href="#"><i className="flaticon-facebook"></i></a></li>
-                    <li><a href="#"><i className="flaticon-twitter"></i></a></li>
-                    <li><a href="#"><i className="flaticon-skype"></i></a></li>
-                    <li><a href="#"><i className="flaticon-instagram"></i></a></li>
+                    <li><a href="#top"><i className="flaticon-facebook"></i></a></li>
+                    <li><a href="#top"><i className="flaticon-twitter"></i></a></li>
+                    <li><a href="#top"><i className="flaticon-skype"></i></a></li>
+                    <li><a href="#top"><i className="flaticon-instagram"></i></a></li>
                 </ul>
             </div>
             {/* Mobile Menu End */}

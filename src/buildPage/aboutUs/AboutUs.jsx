@@ -22,11 +22,11 @@ import author_07 from '../../assets/images/author/author-07.jpg';
 import author_08 from '../../assets/images/author/author-08.jpg';
 import author_09 from '../../assets/images/author/author-09.jpg';
 import author_10 from '../../assets/images/author/author-10.jpg';
-import author_11 from '../../assets/images/author/author-11.jpg';
+// import author_11 from '../../assets/images/author/author-11.jpg';
 import logo_icon from '../../assets/images/logo-icon.png';
 import google_play from '../../assets/images/google-play.png';
 import app_store from '../../assets/images/app-store.png';
-import brand_01 from '../../assets/images/brand/brand-01.png';
+// import brand_01 from '../../assets/images/brand/brand-01.png';
 const AboutUs = () => {
   return (
     <div>
@@ -42,7 +42,7 @@ const AboutUs = () => {
                 {/* Page Banner Start */}
                 <div className="page-banner-content">
                     <ul className="breadcrumb">
-                        <li><a href="#">Home</a></li>
+                        <li><a href="#top">Home</a></li>
                         <li className="active">About</li>
                     </ul>
                     <h2 className="title">About <span>Divisor.</span></h2>
@@ -104,7 +104,7 @@ const AboutUs = () => {
                                 <h5 className="sub-title">Welcome to Divisor.</h5>
                                 <h2 className="main-title">You can join with Edule and upgrade your skill for your <span>bright future.</span></h2>
                                 <p>Lorem Ipsum has been the industr’s standard dummy text ever since unknown printer took galley type and scmbled make type specimen book. It has survived not only five centuries.</p>
-                                <a href="#" className="btn btn-primary btn-hover-dark">Start A Course</a>
+                                <a href="#top" className="btn btn-primary btn-hover-dark">Start A Course</a>
                             </div>
                             {/* About Content End */}
 
@@ -459,8 +459,8 @@ const AboutUs = () => {
                     {/* Download App Button End */}
                     <div className="download-app-btn">
                         <ul className="app-btn">
-                            <li><a href="#"><img src={google_play} alt="Google Play"/></a></li>
-                            <li><a href="#"><img src={app_store} alt="App Store"/></a></li>
+                            <li><a href="#top"><img src={google_play} alt="Google Play"/></a></li>
+                            <li><a href="#top"><img src={app_store} alt="App Store"/></a></li>
                         </ul>
                     </div>
                     {/* Download App Button End */}
